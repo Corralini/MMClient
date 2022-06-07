@@ -1,5 +1,5 @@
 # MMClient
-M&amp;M Client is used to Manage and Monitor computers in network.
+MM Client is used to Manage and Monitor computers in network.
 
 ## Installation
 First you have to clone git repository.
@@ -10,7 +10,7 @@ Next you have to install requirements.
 ```bash
 pip install requirements.txt
 ```
-Run M&amp;M Client by terminal.
+Run MM Client by terminal.
 ```bash
 py main.py
 ```
@@ -38,7 +38,7 @@ disk3=H:/
 ```
 
 ### server.cfg
-Here is all the configuration about M&amp;MCore.
+Here is all the configuration about MMCore.
 
 ```
 [global]
@@ -61,4 +61,4 @@ psswdLogin = abc123.
 ```
 
 ## Note
-M&amp;MClient have to be installed in all computer you want to monitor and manage
+MMClient have to be installed in all computer you want to monitor and manage
