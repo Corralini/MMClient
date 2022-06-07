@@ -2,7 +2,6 @@ import configparser
 import platform
 import threading
 import time
-from datetime import datetime
 
 from common.utils.general import process_instructions
 from common.utils.utils import win_map_net_drive, win_delete_net_drive
@@ -12,7 +11,7 @@ from core import windows, linux
 def monitor(config: configparser):
     while True:
         refresh_rate = config.get("global", "refreshRate")
-        #TODO CREAR LOG
+        # TODO CREAR LOG
         # print(datetime.now())
         if platform.system() == "Windows":
             windows.run()
@@ -38,8 +37,6 @@ if __name__ == '__main__':
     try:
         win_map_net_drive()
         threading.Thread(target=monitor, args=(main_config,)).start()
-        # threading.Thread(target=manage, args=(main_config,)).start()
-        manage(main_config)
+        threading.Thread(target=manage, args=(main_config,)).start()
     finally:
         win_delete_net_drive()
-
