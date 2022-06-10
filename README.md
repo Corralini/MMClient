@@ -1,7 +1,7 @@
 # MMClient
 MM Client is used to Manage and Monitor computers in network.
 
-##Requirenments
+## Requirenments
 Python 3.9.13
 OS Windows
 
