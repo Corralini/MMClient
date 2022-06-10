@@ -2,7 +2,7 @@
 MM Client is used to Manage and Monitor computers in network.
 
 ## Requirenments
-Python 3.9.13.
+Python 3.9.13. <br />
 OS Windows.
 
 ## Installation
