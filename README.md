@@ -1,6 +1,10 @@
 # MMClient
 MM Client is used to Manage and Monitor computers in network.
 
+##Requirenments
+Python 3.9.13
+OS Windows
+
 ## Installation
 First you have to clone git repository.
 ```bash
